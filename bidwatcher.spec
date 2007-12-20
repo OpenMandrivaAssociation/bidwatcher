@@ -9,6 +9,7 @@ Release:	%{release}
 Source:		http://prdownloads.sourceforge.net/bidwatcher/%{name}-%{version}.tar.bz2
 Url:		http://bidwatcher.sourceforge.net
 Group:		Networking/Other
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	gtk+-devel >= 1.2
 BuildRequires:  curl-devel
 License:	GPL
