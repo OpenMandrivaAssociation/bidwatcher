@@ -32,16 +32,6 @@ rm -rf $RPM_BUILD_ROOT
 %makeinstall
 
 # menu
-install -d $RPM_BUILD_ROOT%{_menudir}
-cat << EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(%{name}):command="bidwatcher" \
-needs="x11" \
-icon="finances_section.png" \
-section="More Applications/Finances" \
-title="BidWatcher" \
-longtitle="Tool For eBay users" \
-xdg="true"
-EOF
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/applications
 cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-%{name}.desktop << EOF
@@ -69,7 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc README INSTALL NEWS COPYING AUTHORS
 %{_bindir}/*
 %{_mandir}/man1/*
-%{_menudir}/*
 %{_datadir}/applications/mandriva-%{name}.desktop
 
 
