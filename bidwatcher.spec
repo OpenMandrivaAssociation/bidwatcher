@@ -1,9 +1,9 @@
 %define name	bidwatcher
 %define version 1.3.17
-%define release %mkrel 6
+%define release %mkrel 7
 
 Name:		%{name}
-Summary:	Free tools to manage e-bay auctions
+Summary:	Tools to manage e-bay auctions
 Version:	%{version}
 Release:	%{release}
 Source:		http://prdownloads.sourceforge.net/bidwatcher/%{name}-%{version}.tar.bz2
