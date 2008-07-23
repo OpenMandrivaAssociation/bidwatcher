@@ -1,6 +1,6 @@
 %define name	bidwatcher
 %define version 1.3.17
-%define release %mkrel 7
+%define release %mkrel 9
 
 Name:		%{name}
 Summary:	Tools to manage e-bay auctions
