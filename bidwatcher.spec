@@ -7,7 +7,7 @@ Summary:	Tools to manage e-bay auctions
 Version:	%{version}
 Release:	%{release}
 Source:		http://prdownloads.sourceforge.net/bidwatcher/%{name}-%{version}.tar.bz2
-Url:		http://bidwatcher.sourceforge.net
+Url:		https://bidwatcher.sourceforge.net
 Group:		Networking/Other
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	gtk+-devel >= 1.2
